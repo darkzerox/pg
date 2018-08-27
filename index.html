@@ -4,23 +4,20 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Test code</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">  
-  
-  <script src="https://smtpjs.com/v2/smtp.js">
+  <meta name="viewport" content="width=device-width, initial-scale=1">    
+ 
   </script>
 </head>
 <body>
-  Test my code
+
+  <form action="https://formspree.io/app.chittrakorn@gmail.com"
+  method="POST">
+  <input type="text" name="name">
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
+</form>
 </body>
 
 
-<script>
 
-Email.send("from@you.com",
-"to@them.com",
-"This is a subject",
-"this is the body",
-{token: "09f9561e-b6ad-4e96-bbb9-262727b7fb19"});
-
-</script>
 </html> 
